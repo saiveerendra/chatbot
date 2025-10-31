@@ -1,13 +1,7 @@
 streamlit
 PyPDF2
-langchain-core
+langchain
 langchain-community
-langchain-chains
-langchain-prompts
-langchain-text-splitters
-langchain-embeddings
-langchain-llms
-langchain-vectorstores
 faiss-cpu
 boto3
 python-dotenv
