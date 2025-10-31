@@ -1,7 +1,6 @@
 import streamlit as st
 from PyPDF2 import PdfReader
-from langchain_text_splitters import RecursiveCharacterTextSplitter
-
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import BedrockEmbeddings
 from langchain_community.llms import Bedrock
 from langchain.chains import RetrievalQA
@@ -10,7 +9,6 @@ from langchain_community.vectorstores import FAISS
 from dotenv import load_dotenv
 import boto3
 import os
-import requests
 
 # Load environment variables
 load_dotenv()
