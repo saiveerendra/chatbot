@@ -6,3 +6,5 @@ faiss-cpu
 boto3
 python-dotenv
 requests
+
+chromadb
